@@ -14,9 +14,9 @@ readonly G_SPL_NAME_FOR_NAND='SPL.nand'
 
 # Linux kernel
 readonly G_LINUX_KERNEL_SRC_DIR="${DEF_SRC_DIR}/kernel"
-readonly G_LINUX_KERNEL_GIT="https://github.com/varigit/linux-imx.git"
-readonly G_LINUX_KERNEL_BRANCH="5.4-2.1.x-imx_var01"
-readonly G_LINUX_KERNEL_REV="5227ff0e2a5ca08777d926a440244975ffb0d095"
+readonly G_LINUX_KERNEL_GIT="https://github.com/ArnaudCrl/linux-imx.git"
+readonly G_LINUX_KERNEL_BRANCH="arnaud-custom-dts"
+readonly G_LINUX_KERNEL_REV="fc1000137740a885e73503e3779fcac63049a858"
 readonly G_LINUX_KERNEL_DEF_CONFIG='imx_v7_var_defconfig'
 G_LINUX_DTB="imx6ull-var-dart-6ulcustomboard-emmc-sd-card.dtb
 	imx6ull-var-dart-6ulcustomboard-emmc-wifi.dtb
