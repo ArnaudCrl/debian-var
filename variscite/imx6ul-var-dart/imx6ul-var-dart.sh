@@ -4,7 +4,7 @@ readonly ARCH_CPU="32BIT"
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
 readonly G_UBOOT_GIT="https://github.com/varigit/uboot-imx.git"
 readonly G_UBOOT_BRANCH="imx_v2018.03_4.14.78_1.0.0_ga_var02"
-readonly G_UBOOT_REV="28340d4e2826ad04299760af9f51bbd546831d33"
+readonly G_UBOOT_REV="32670c4e21bf8d1de08e1d1b1f9bfe42c23bc6af"
 readonly G_UBOOT_DEF_CONFIG_MMC='mx6ul_var_dart_mmc_defconfig'
 readonly G_UBOOT_DEF_CONFIG_NAND='mx6ul_var_dart_nand_defconfig'
 readonly G_UBOOT_NAME_FOR_EMMC='u-boot.img.mmc'
@@ -16,7 +16,7 @@ readonly G_SPL_NAME_FOR_NAND='SPL.nand'
 readonly G_LINUX_KERNEL_SRC_DIR="${DEF_SRC_DIR}/kernel"
 readonly G_LINUX_KERNEL_GIT="https://github.com/ArnaudCrl/linux-imx.git"
 readonly G_LINUX_KERNEL_BRANCH="arnaud-custom-dts"
-readonly G_LINUX_KERNEL_REV="fc1000137740a885e73503e3779fcac63049a858"
+readonly G_LINUX_KERNEL_REV="094abfcce9e8c5f6c2d0840907556ed6c4a9e573"
 readonly G_LINUX_KERNEL_DEF_CONFIG='imx_v7_var_defconfig'
 G_LINUX_DTB="imx6ull-var-dart-6ulcustomboard-emmc-sd-card.dtb
 	imx6ull-var-dart-6ulcustomboard-emmc-wifi.dtb
